@@ -68,7 +68,7 @@ Here the flowchart of the project scenario :
 
 ## Scenario in case no change
 
-Here we run the script manually
+Here we run the script
 
 __python3 multi_config_stat.py__
 
