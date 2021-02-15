@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/cherifimehdi/Genie_Webex)
+
 # Genie_Webex Project
 
 <div style="text-align: justify">
@@ -23,7 +25,7 @@ Here is the topology used to test this project:
 
 ![Topology](./Images/Topology.png)
 
-GNS3 was used with Cisco routers equipped with IOS images and a Linux machine as admin (Windows Subsystem for Linux). This allows to test the project even if we do not have recent versions of GNS3 or EVE-NG with IOS-XE which consumes resources (RAM and CPU). However, you can test this project using your own emulator or the DevNet SANDBOX Cisco Modeling Labs (CML). You just need to modify the parameters concerning the information about the devices used in the _connex.yml_ file (IP addresses, users, IOS type, ...). Here is the link for the SANDBOX catalogs, just choose the one from Cisco Modeling Labs : https://devnetsandbox.cisco.com/RM/Topology.
+GNS3 was used with Cisco routers equipped with IOS images and a Linux machine as admin since the framework Genie/PyATS works only on Linux or Mac OSX. However, you can use the Windows Subsystem for Linux (WSL, as the case used in this project). This allows to test the project even if we do not have recent versions of GNS3 or EVE-NG with IOS-XE which consumes resources (RAM and CPU). However, you can test this project using your own emulator or the DevNet SANDBOX Cisco Modeling Labs (CML). You just need to modify the parameters concerning the information about the devices used in the _connex.yml_ file (IP addresses, users, IOS type, ...). Here is the link for the SANDBOX catalogs, just choose the one from Cisco Modeling Labs : https://devnetsandbox.cisco.com/RM/Topology.
 
 # Packages installation and Requierements
 
@@ -41,7 +43,8 @@ You must create a Webex Teams Space in order to test this project. Please refer 
 
 # How to use the project
 ## Note : 
-If you use the configuration files provided for each router (Refer to __Configs__ folder), you need to create RSA Keys to enable SSH. The credentials used could be found in _connex.yml_ file. 
+You must create the __Golden_Config__ file before running _multi_golden_config.py_ script in order to save the golden configuration in the desired configuration state of the devices.
+If you use the golden configuration files provided for each router used in this project(Refer to __Golden_Config___ folder), you need to create RSA Keys to enable SSH. The credentials used could be found in _connex.yml_ file. 
 
 Feel free to change the parameters in _connex.yml_ file  according to your devices configuration and types (os, ip, credentials,...)
 
@@ -51,7 +54,7 @@ In _multi_config_stat.py_, I used _Disk0_ to store the startup-config (golden co
 
 Please update the _access_token_ and  _room_id_ in _multi_config_stat.py_ according to your setting in Webex Teams.
 
-Before running the test, please ensure that you run the _multi_golden_config.py_ script in order to ensure the golden configuration (Desired configuration) in the folder _Golden_Config_ for comparing purpose.
+Before running the test, please ensure that you run the _multi_golden_config.py_ script in order to ensure the golden configuration (Desired configuration) in the folder _Golden_Config_ for comparing purposes.
 
 ![Golden config](./Images/golden_config_tree.png)
 
