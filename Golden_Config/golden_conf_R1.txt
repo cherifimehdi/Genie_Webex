@@ -1,0 +1,105 @@
+!
+!
+! Last configuration change at 15:50:14 UTC Sat Dec 19 2020
+!
+upgrade fpd auto
+version 15.1
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname R1
+!
+boot-start-marker
+boot-end-marker
+!
+enable secret 5 $1$mv/.$Zc27zQ7POLX3j1GOho6sf.
+!
+no aaa new-model
+!
+no ipv6 cef
+ip source-route
+ip cef
+!
+!
+!
+!
+no ip domain lookup
+ip domain name genie.com
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+!
+!
+username Admin privilege 15 secret 5 $1$0vBq$IeB/cSWu53Rxh23CbQHTx.
+!
+redundancy
+!
+!
+crypto ikev2 diagnose error 50
+!
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 192.168.1.251 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+ip forward-protocol nd
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+gatekeeper
+ shutdown
+!
+!
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+ stopbits 1
+line aux 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+ stopbits 1
+line vty 0 4
+ login local
+ transport input ssh
+line vty 5 15
+ login local
+ transport input ssh
+!
+end
