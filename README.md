@@ -31,20 +31,20 @@ GNS3 was used with Cisco routers equipped with IOS images and a Linux machine as
 
 The best practice is to leverage Python Virtual Environments (env). Please follow these steps to clone the Git repository and create and active the virtual environment:
 
-```bash
- git clone https://github.com/cherifimehdi/Genie_Webex.git
- cd Genie_Webex
- python3 -m venv venv
- source venv/bin/activate
- pip3 install -r requirements.txt
+```
+git clone https://github.com/cherifimehdi/Genie_Webex.git
+cd Genie_Webex
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
 ```
 
 As the packages used are found in requirements.txt file, alternatively, you can install the packages as follows: 
 
-```bash
- pip3 install pyats[full]
- pip3 install requests
- pip3 install requests-toolbelt
+```
+pip3 install pyats[full]
+pip3 install requests
+pip3 install requests-toolbelt
 ```
 
 ### Note : 
