@@ -54,7 +54,7 @@ You must create a Webex Teams Space in order to test this project. Please refer 
 # How to use the project
 ## Note : 
 You must create the __Golden_Config__ folder before running _multi_golden_config.py_ script in order to save the golden configuration in the desired configuration state of the devices.
-If you use the golden configuration files provided for each router used in this project(Refer to __Golden_Config__ folder), you need to create RSA Keys to enable SSH. The credentials used could be found in _connex.yml_ file. 
+If you use the golden configuration files provided for each router used in this project (Refer to __Golden_Config__ folder), you need to create RSA Keys to enable SSH. The credentials used could be found in _connex.yml_ file. 
 
 Feel free to change the parameters in _connex.yml_ file  according to your devices configuration and types (os, ip, credentials,...)
 
@@ -64,7 +64,7 @@ In _multi_config_stat.py_, I used _Disk0_ to store the startup-config (golden co
 
 Please update the _access_token_ and  _room_id_ in _multi_config_stat.py_ according to your setting in Webex Teams.
 
-Before running the test, please ensure that you run the _multi_golden_config.py_ script in order to ensure the golden configuration (Desired configuration) in the folder _Golden_Config_ for comparing purposes.
+Before running the test, please ensure that you run the _multi_golden_config.py_ script in order to ensure the golden configuration (Desired configuration) in the folder _Golden_Config_ for comparison purposes.
 
  ```
 python3 multi_golden_config.py
