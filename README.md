@@ -122,4 +122,16 @@ The golden configuration restoring process is applied (by exploiting the command
 
 
 # About me
-I am a PhD in Electronics and a Cisco Certified Academic Instructor for more than 5 years. I am interesting in all about NetDevOps, Networking programmability and automation. I am a Cisco contents fan. You can contact me on [LinkedIn](https://www.linkedin.com/in/mehdi-cherifi-4b5a641b3?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bu%2FhQw71bTDKuT%2BljXLLFyA%3D%3D), [Twitter](https://twitter.com/LocketKeepsake) or [GitHub](https://github.com/cherifimehdi)
+
+PhD in Electronics and an active Cisco CCAI Instructor and Network Engineering Trainer. Part of Cisco DevNet Class 2020. Cisco DevNet Code Exchange and Automation Exchange Contributor.
+I am interesting in all about NetDevOps, Networking programmability and automation. I am a Cisco contents fan.
+
+## Contact Me
+
+[LinkedIn](www.linkedin.com/in/mehdi-cherifi)
+
+[GitHub](https://github.com/cherifimehdi)
+
+[Credly](https://www.credly.com/users/mehdi-cherifi/badges)
+
+[Twitter](https://twitter.com/LocketKeepsake)
