@@ -116,7 +116,7 @@ Here the content of the file _change_R2.txt_
 
 ![change_R2.txt](./Images/change_R2.txt.png)
 
-The golden configuration restoring process is applied as indicated in the following figure:
+The golden configuration restoring process is applied (by exploiting the command ___configure replace disk0:startup-config force___) as indicated in the following figure:
 
 ![startup-config_restoring_R2](./Images/startup-config_restoring_R2.png)
 
