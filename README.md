@@ -130,7 +130,7 @@ I am interesting in all about NetDevOps, Networking programmability and automati
 
 ## Contact Me
 
-[LinkedIn](www.linkedin.com/in/cherifi-mehdi)
+[LinkedIn](www.linkedin.com/in/cherifi-mehdi) 
 
 [GitHub](https://github.com/cherifimehdi)
 
