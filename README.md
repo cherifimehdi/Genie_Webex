@@ -26,7 +26,7 @@ https://pubhub.devnetcloud.com/media/genie-docs/docs/cookbooks/index.html
 
 Before we start, here a demo:
 
-![Demo](./Images/Genie_Webex_Demo.GIF)
+![Demo](./Images/Genie_Webex_Demo.gif)
 
 Here is the topology used to test this project:
 
