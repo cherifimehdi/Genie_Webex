@@ -23,6 +23,11 @@ To get started with Genie/pyATS :
 https://pubhub.devnetcloud.com/media/genie-docs/docs/cookbooks/index.html 
 
 # Topology and Simulation
+
+Before we start, here a demo:
+
+![Demo](./Images/Genie_Webex_Demo.GIF)
+
 Here is the topology used to test this project:
 
 ![Topology](./Images/Topology.png)
@@ -125,7 +130,7 @@ The golden configuration restoring process is applied (by exploiting the command
 
 # About me
 
-PhD in Electronics and an active Cisco CCAI Instructor and Network Engineering Trainer. Part of Cisco DevNet Class 2020. Cisco DevNet Code Exchange and Automation Exchange Contributor.
+Active Cisco CCAI Instructor and Network Engineering Trainer. Part of Cisco DevNet Class 2020. Cisco DevNet Code Exchange and Automation Exchange Contributor.
 I am interesting in all about NetDevOps, Networking programmability and automation. I am a Cisco contents fan.
 
 ## Contact Me
