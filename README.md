@@ -24,10 +24,6 @@ https://pubhub.devnetcloud.com/media/genie-docs/docs/cookbooks/index.html
 
 # Topology and Simulation
 
-Before we start, here a demo:
-
-![Demo](./Images/Genie_Webex_Demo.gif)
-
 Here is the topology used to test this project:
 
 ![Topology](./Images/Topology.png)
