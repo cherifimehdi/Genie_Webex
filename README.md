@@ -22,9 +22,6 @@ To get started with Genie/pyATS :
 
 https://pubhub.devnetcloud.com/media/genie-docs/docs/cookbooks/index.html 
 
-# Demo
-
-![Demo](./Images/Genie_Webex_demo.gif)
 
 # Topology and Simulation
 
